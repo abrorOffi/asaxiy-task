@@ -95,6 +95,19 @@ financial-dashboard/
 
 ---
 
+## .env.example  
+
+Loyiha uchun API kalitlarini va konfiguratsiya sozlamalarini `.env` faylida ko'rsatishingiz kerak. Quyida namunaviy `.env.example` fayl ko'rsatilgan:  
+
+```
+VITE_EXCHANGERATE_KEY = your_exchange_rate_api_key
+
+```
+
+Bu faylni `.env` nomi bilan saqlang va o'z API kalitlaringizni kiritishni unutmang.  
+
+---
+
 ## Kelajakdagi Yaxshilanishlar  
 
 1. Grafiklar yordamida moliyaviy ma'lumotlarni vizualizatsiya qilish (masalan, ustun diagramma, doira diagramma).  
